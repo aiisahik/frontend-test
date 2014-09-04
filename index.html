@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="project">
+	<head>
+		<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	</head>
+	<body>
+
+		<div id="main" class="container">
+
+			<div id="requests-list-view"></div>
+			<div id="request-view"></div>
+		</div>
+
+		<script type="text/template" id="request-list-wrapper-template">
+			<h3>My Requests </h3>
+			<div class="row"> 
+				<div class="col-md-6"><h5>Request</h5></div>
+				<div class="col-md-3"><h5>Request Date </h5></div>
+				<div class="col-md-3"><h5># Suppliers </h5></div>
+			</div>
+			<hr>
+			<div id="request-list"></div>
+		</script>
+		<script type="text/template" id="request-list-item-template">
+			<div class="row"> 
+				<div class="col-md-6"><a href="#" onclick="render_request(<%= id %>)"> <%= headline %></a></div>
+				<div class="col-md-3"><%= date %></div>
+				<div class="col-md-3"><%= suppliers.length %></div>
+			</div>
+			<hr>
+		</script>
+
+		<script type="text/template" id="request-wrapper-template">
+			<h3><a href="#" onclick="render_requests_list()">My Requests</a> > <%= headline %> </h3>
+			<div class="row"> 
+				<div class="col-md-3"><h5>Supplier</h5></div>
+				<div class="col-md-3"><h5>Location </h5></div>
+				<div class="col-md-3"><h5>Quotes </h5></div>
+				<div class="col-md-3"><h5>Messages </h5></div>
+			</div>
+			<hr>
+			<div id="supplier-list"></div>
+		</script>
+		<script type="text/template" id="supplier-list-item-template">
+			<div class="row"> 
+				<div class="col-md-3"><%= name %></div>
+				<div class="col-md-3"><%= city %>, <%= state %></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-3"><%= messages.length %></div>
+			</div>
+			<hr>
+		</script>
+
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript">
+			render_requests_list = function(){
+				$("#request-view")
+					.empty();
+				$("#requests-list-view")
+					.empty()
+					.append(_.template($("#request-list-wrapper-template").html()));
+
+				_.each(data.requests,function(request){
+					$("#request-list")
+						.append(_.template($("#request-list-item-template").html(), request));
+				});
+			}
+
+			render_request = function(request_id){
+				var request = _.findWhere(data.requests, {id: request_id});
+
+				$("#requests-list-view")
+					.empty();
+				
+				$("#request-view")
+					.empty()
+					.append(_.template($("#request-wrapper-template").html(), request));
+				_.each(request.suppliers,function(supplier){
+					$("#supplier-list").append(
+						_.template($("#supplier-list-item-template").html(), supplier)
+					);
+				});
+			}
+
+			$(function(){
+				render_requests_list();
+			})
+		</script>
+	</body>
+</html>
