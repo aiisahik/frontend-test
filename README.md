@@ -37,7 +37,7 @@ Getting Started and Submitting
 
 
 
-Guidelines: 
+Guidelines
 =============
 
 1. You may import / remove / replace any generally available open source library.
