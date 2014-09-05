@@ -89,7 +89,7 @@ data = {
       "suppliers": [
         {
           "city": "Beeton",
-          "name": "Lawson Kegs",
+          "name": "Lawless Kegs",
           "responsiveness": 0.122641509433962,
           "quote": null,
           "numTradeReferences": 0,
@@ -102,7 +102,7 @@ data = {
         },
         {
           "city": "Bend",
-          "name": "Gopher Kegs",
+          "name": "Gecko Kegs",
           "responsiveness": 0.9875,
           "quote": null,
           "numTradeReferences": 0,
@@ -124,7 +124,7 @@ data = {
         },
         {
           "city": "Pottstown",
-          "name": "Geemacher",
+          "name": "Geewizz",
           "responsiveness": 1.0,
           "quote": {
             "date": "2014-05-27T12:33:32",
@@ -132,9 +132,9 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/xvriscwbuandxyk.pdf",
+                    "url": "xvriscwbuandxyk.pdf",
                     "id": 20479,
-                    "name": "Geemacher Quote# 6605.pdf"
+                    "name": "Geewizz Quote# 6605.pdf"
                   }
                 ],
                 "aggregateOrPerUnit": "per unit",
@@ -190,7 +190,7 @@ data = {
         },
         {
           "city": "Green Bay",
-          "name": "Tosca",
+          "name": "Tim Tam Toot",
           "responsiveness": 1.0,
           "quote": null,
           "numTradeReferences": 0,
@@ -203,7 +203,7 @@ data = {
         },
         {
           "city": "Clearwater",
-          "name": "Boston Capital Leasing",
+          "name": "Backwater Capital Leasing",
           "responsiveness": 1.0,
           "quote": {
             "date": "2014-05-27T13:50:47",
@@ -211,7 +211,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/hrujqvllyznxukh.jpg",
+                    "url": "hrujqvllyznxukh.jpg",
                     "id": 20508,
                     "name": "IMG_5783.jpg"
                   }
@@ -219,7 +219,7 @@ data = {
                 "aggregateOrPerUnit": "per unit",
                 "name": "Kegs",
                 "unit": "unit",
-                "price": 71.0,
+                "price": 61.0,
                 "quantity": 25.0,
                 "description": "Quantity: 20-25, Size: 1/6 bbl, RentOrOwn: Own, Material: Stainless Steel, Liquid Type: Beer, Sankey Valve: Yes, Embossing: No"
               }
@@ -318,7 +318,7 @@ data = {
         },
         {
           "city": "Charlotte",
-          "name": "Deutsche Beverage Technology",
+          "name": "Danish Beverage Technology",
           "responsiveness": 0.98,
           "quote": null,
           "numTradeReferences": 2,
@@ -340,7 +340,7 @@ data = {
         },
         {
           "city": "LaVergne",
-          "name": "Franke Beverage Systems",
+          "name": "Fredricks Beverage Systems",
           "responsiveness": 0.620253164556962,
           "quote": null,
           "numTradeReferences": 0,
@@ -396,7 +396,7 @@ data = {
       "suppliers": [
         {
           "city": "Fort Pierce",
-          "name": "Auto Labe",
+          "name": "Labelmatic",
           "responsiveness": 0.0,
           "quote": null,
           "numTradeReferences": 0,
@@ -409,7 +409,7 @@ data = {
         },
         {
           "city": "Paso Robles",
-          "name": "The Vintner Vault",
+          "name": "The Vineyard Village",
           "responsiveness": 0.112582781456954,
           "quote": {
             "date": "2014-02-24T13:25:25",
@@ -417,7 +417,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/bcpznewvkebxugu.jpg",
+                    "url": "bcpznewvkebxugu.jpg",
                     "id": 11775,
                     "name": "Labeler-Compatta-Trans-CMYK.jpg"
                   }
@@ -442,7 +442,7 @@ data = {
         },
         {
           "city": "Oxfordshire, UK",
-          "name": "Liquid Solutions",
+          "name": "Moist Solutions",
           "responsiveness": 0.0,
           "quote": null,
           "numTradeReferences": 0,
@@ -464,7 +464,7 @@ data = {
         },
         {
           "city": "Abilene",
-          "name": "Zap Labeler",
+          "name": "Zip Zap Zoom",
           "responsiveness": 1.0,
           "quote": {
             "date": "2014-02-11T00:49:19",
@@ -518,7 +518,7 @@ data = {
       "suppliers": [
         {
           "city": "Baltimore",
-          "name": "Mark Supik & Co.",
+          "name": "Moot Court & Co.",
           "responsiveness": 1.0,
           "quote": null,
           "numTradeReferences": 0,
@@ -556,7 +556,7 @@ data = {
         },
         {
           "city": "Maple Ridge",
-          "name": "Chrislan Ceramics Inc.",
+          "name": "Catholic Pottery Inc.",
           "responsiveness": 0.0,
           "quote": null,
           "numTradeReferences": 0,
@@ -578,7 +578,7 @@ data = {
         },
         {
           "city": "Portland",
-          "name": "Beer Bones Marketing & Branding",
+          "name": "Brew Bottom Marketing & Branding",
           "responsiveness": 0.666666666666667,
           "quote": {
             "date": "2014-02-21T13:48:14",
@@ -605,7 +605,7 @@ data = {
         },
         {
           "city": "Torrance",
-          "name": "Smith & Co.",
+          "name": "Sam & Co.",
           "responsiveness": 0.0,
           "quote": {
             "date": "2014-02-13T01:07:04",
@@ -626,7 +626,7 @@ data = {
           "numProductImages": 0,
           "messages": [
             {
-              "body": "I received your contact info through kinnek. I'm hoping I can make the handles that you want. My handles start at $25 each for the smallest with standard domestic hardwoods. I have a variety of standard styles that I make and anything can be customized. I can send you some photos of some of my work and breweries, restaurants, and bars that have my handles. I can get you a detailed quote with just a little more specific info including number of handles, possible wood choices, and a general idea of size. \nBryan Smith\nSmith & Co.",
+              "body": "I received your contact info through kinnek. I'm hoping I can make the handles that you want. My handles start at $25 each for the smallest with standard domestic hardwoods. I have a variety of standard styles that I make and anything can be customized. I can send you some photos of some of my work and breweries, restaurants, and bars that have my handles. I can get you a detailed quote with just a little more specific info including number of handles, possible wood choices, and a general idea of size. \nBryan Smith\nSam & Co.",
               "senderId": 14755,
               "recipientId": 14550,
               "readAt": "2014-02-13T06:21:47",
@@ -641,7 +641,7 @@ data = {
         },
         {
           "city": "Random Lake",
-          "name": "AJS & Associates Inc",
+          "name": "BSA & Associates Inc",
           "responsiveness": 1.0,
           "quote": null,
           "numTradeReferences": 0,
@@ -663,7 +663,7 @@ data = {
         },
         {
           "city": "N Miami Beach",
-          "name": "The Alison Group",
+          "name": "The Aloof Group",
           "responsiveness": 0.4,
           "quote": null,
           "numTradeReferences": 0,
@@ -709,7 +709,7 @@ data = {
         },
         {
           "city": "Seattle",
-          "name": "Taphandles LLC",
+          "name": "Handmedown LLC",
           "responsiveness": 0.238095238095238,
           "quote": null,
           "numTradeReferences": 0,
@@ -728,7 +728,7 @@ data = {
       "category": "Beer glasses",
       "attachments": [
         {
-          "url": "http://dhhk47tc0cy6x.cloudfront.net/media/post_images/abvnmvfiplsxiix.jpg",
+          "url": "abvnmvfiplsxiix.jpg",
           "id": 1152,
           "name": "SideSwipe.jpg"
         }
@@ -755,7 +755,7 @@ data = {
       "suppliers": [
         {
           "city": "Largo",
-          "name": "BarProducts.com",
+          "name": "PubStuffs.com",
           "responsiveness": 0.952755905511811,
           "quote": {
             "date": "2014-02-06T11:17:17",
@@ -763,7 +763,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/aajyrtszbibzuff.jpg",
+                    "url": "aajyrtszbibzuff.jpg",
                     "id": 4435,
                     "name": "BarConic-Glassware-15-ounce-Mixing-Glass-black.jpg"
                   }
@@ -801,7 +801,7 @@ data = {
         },
         {
           "city": "Howardsville",
-          "name": "Atlantic Custom Solutions",
+          "name": "Pacific Custom Wares",
           "responsiveness": 0.52191235059761,
           "quote": {
             "date": "2014-02-06T10:44:22",
@@ -809,7 +809,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/vjkmjcrklopnbpn.pdf",
+                    "url": "vjkmjcrklopnbpn.pdf",
                     "id": 10726,
                     "name": "2014 ACS Catalogue January.pdf"
                   }
@@ -843,7 +843,7 @@ data = {
         },
         {
           "city": "Kutztown",
-          "name": "Mission Screen Printing",
+          "name": "Sonoma Screen Printing",
           "responsiveness": 0.95,
           "quote": {
             "date": "2014-02-07T10:06:32",
@@ -851,7 +851,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/vvaurqkluabeybc.pdf",
+                    "url": "vvaurqkluabeybc.pdf",
                     "id": 10771,
                     "name": "paulspub.pdf"
                   }
@@ -876,7 +876,7 @@ data = {
         },
         {
           "city": "Fairport",
-          "name": "Zenan USA",
+          "name": "Xenon Stars and Stripes",
           "responsiveness": 0.97037037037037,
           "quote": {
             "date": "2014-02-06T09:04:15",
@@ -938,7 +938,7 @@ data = {
       "suppliers": [
         {
           "city": "Pottstown",
-          "name": "Geemacher",
+          "name": "Geewizz",
           "responsiveness": 1.0,
           "quote": {
             "date": "2014-02-05T17:09:52",
@@ -967,7 +967,7 @@ data = {
               "sentAt": "2014-02-07T12:11:37"
             },
             {
-              "body": "Hi,\n\nWe can offer $79 a keg on a order of 46 1/6bbl kegs or $75 a keg on an order of 2+ pallets.\n\nCheers!\nDan Heisig\nGeemacher LLC",
+              "body": "Hi,\n\nWe can offer $79 a keg on a order of 46 1/6bbl kegs or $75 a keg on an order of 2+ pallets.\n\nCheers!\nDan Heisig\nGeewizz LLC",
               "senderId": 14493,
               "recipientId": 14550,
               "readAt": "2014-02-07T19:45:06",
@@ -982,7 +982,7 @@ data = {
         },
         {
           "city": "Green Bay",
-          "name": "Tosca",
+          "name": "Tim Tam Toot",
           "responsiveness": 1.0,
           "quote": {
             "date": "2014-02-05T18:49:25",
@@ -990,7 +990,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/jvgcxoffzypiyab.pdf",
+                    "url": "jvgcxoffzypiyab.pdf",
                     "id": 10671,
                     "name": "Sideswipe Brewing Co 2-5-14.pdf"
                   }
@@ -1015,7 +1015,7 @@ data = {
         },
         {
           "city": "Beeton",
-          "name": "Lawson Kegs",
+          "name": "Lawless Kegs",
           "responsiveness": 0.122641509433962,
           "quote": {
             "date": "2014-02-12T22:15:08",
@@ -1023,7 +1023,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/ybzzcmwbqnzxcqm.jpg",
+                    "url": "ybzzcmwbqnzxcqm.jpg",
                     "id": 11258,
                     "name": "IMG_2262.jpg"
                   }
@@ -1081,7 +1081,7 @@ data = {
         },
         {
           "city": "Greenville",
-          "name": "The Leader Group",
+          "name": "The Following Foreigner",
           "responsiveness": 0.0,
           "quote": {
             "date": "2014-02-05T16:34:28",
@@ -1108,7 +1108,7 @@ data = {
         },
         {
           "city": "Charlotte",
-          "name": "Deutsche Beverage Technology",
+          "name": "Danish Beverage Technology",
           "responsiveness": 0.98,
           "quote": {
             "date": "2014-02-06T11:41:54",
@@ -1116,17 +1116,17 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/sblwazlcuxdavcu.pdf",
+                    "url": "sblwazlcuxdavcu.pdf",
                     "id": 10734,
                     "name": "Estimate_1340_from_Deutsche_Beverage_Technology SideswipeBrewing.pdf"
                   },
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/atkppjyrecsdbwp.pdf",
+                    "url": "atkppjyrecsdbwp.pdf",
                     "id": 10735,
                     "name": "DBT Kegs Sales Brochure.pdf"
                   },
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/zlydqpuvpbrkmxm.pdf",
+                    "url": "zlydqpuvpbrkmxm.pdf",
                     "id": 10736,
                     "name": "Deutsche Brewery Brochure.pdf"
                   }
@@ -1168,7 +1168,7 @@ data = {
         },
         {
           "city": "LaVergne",
-          "name": "Franke Beverage Systems",
+          "name": "Fredricks Beverage Systems",
           "responsiveness": 0.620253164556962,
           "quote": null,
           "numTradeReferences": 0,
@@ -1181,7 +1181,7 @@ data = {
         },
         {
           "city": "Santa Rosa",
-          "name": "The Compleat Winemaker",
+          "name": "The Competent Grape Stomper",
           "responsiveness": 0.56,
           "quote": {
             "date": "2014-02-05T16:59:40",
@@ -1260,7 +1260,7 @@ data = {
       "suppliers": [
         {
           "city": "Cleveland",
-          "name": "Kaufman Container Company",
+          "name": "Kimchi Container Company",
           "responsiveness": 0.492307692307692,
           "quote": {
             "date": "2014-02-10T14:25:12",
@@ -1345,7 +1345,7 @@ data = {
         },
         {
           "city": "St. Louis",
-          "name": "BuyOurBottles.com",
+          "name": "TakeOurGlass.com",
           "responsiveness": 0.978260869565217,
           "quote": {
             "date": "2014-02-05T16:59:54",
@@ -1405,7 +1405,7 @@ data = {
         },
         {
           "city": "Kent",
-          "name": "Vintners Global Resource",
+          "name": "Grape Global Goods",
           "responsiveness": 0.315789473684211,
           "quote": null,
           "numTradeReferences": 0,
@@ -1427,7 +1427,7 @@ data = {
         },
         {
           "city": "Cleveland",
-          "name": "Cleveland Bottle & Supply",
+          "name": "Ohio Glass and Goods",
           "responsiveness": 0.964912280701754,
           "quote": {
             "date": "2014-02-06T11:04:09",
@@ -1436,12 +1436,12 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/ekholvmfhdastaj.pdf",
+                    "url": "ekholvmfhdastaj.pdf",
                     "id": 10731,
                     "name": "Sideswipe.pdf"
                   },
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/bbjuwoneobklsjt.pdf",
+                    "url": "bbjuwoneobklsjt.pdf",
                     "id": 10732,
                     "name": "Sideswipe.pdf"
                   }
@@ -1472,7 +1472,7 @@ data = {
       "category": "Growlers",
       "attachments": [
         {
-          "url": "http://dhhk47tc0cy6x.cloudfront.net/media/post_images/pwfvrnvnlncvlkg.jpg",
+          "url": "pwfvrnvnlncvlkg.jpg",
           "id": 1149,
           "name": "Logo high res.jpg"
         }
@@ -1499,7 +1499,7 @@ data = {
       "suppliers": [
         {
           "city": "Cleveland",
-          "name": "Cleveland Bottle & Supply",
+          "name": "Ohio Glass and Goods",
           "responsiveness": 0.964912280701754,
           "quote": {
             "date": "2014-02-08T16:06:14",
@@ -1526,7 +1526,7 @@ data = {
         },
         {
           "city": "Fairport",
-          "name": "Zenan USA",
+          "name": "Xenon Stars and Stripes",
           "responsiveness": 0.97037037037037,
           "quote": {
             "date": "2014-02-05T17:08:47",
@@ -1535,7 +1535,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/lcrbcglfkosanjh.jpg",
+                    "url": "lcrbcglfkosanjh.jpg",
                     "id": 10654,
                     "name": "64 oz. Clear Growler.jpg"
                   }
@@ -1560,7 +1560,7 @@ data = {
         },
         {
           "city": "Lawrence",
-          "name": "Grandstand Sportswear and Glassware",
+          "name": "Bleacher Glassware and Goods",
           "responsiveness": 0.884393063583815,
           "quote": {
             "date": "2014-02-11T12:42:57",
@@ -1588,7 +1588,7 @@ data = {
         },
         {
           "city": "Kutztown",
-          "name": "Mission Screen Printing",
+          "name": "Sonoma Screen Printing",
           "responsiveness": 0.95,
           "quote": {
             "date": "2014-02-11T14:44:06",
@@ -1615,7 +1615,7 @@ data = {
         },
         {
           "city": "Cleveland",
-          "name": "Kaufman Container Company",
+          "name": "Kimchi Container Company",
           "responsiveness": 0.492307692307692,
           "quote": {
             "date": "2014-02-13T12:33:58",
@@ -1643,7 +1643,7 @@ data = {
         },
         {
           "city": "Howardsville",
-          "name": "Atlantic Custom Solutions",
+          "name": "Pacific Custom Wares",
           "responsiveness": 0.52191235059761,
           "quote": {
             "date": "2014-02-06T11:22:24",
@@ -1652,7 +1652,7 @@ data = {
               {
                 "attachments": [
                   {
-                    "url": "http://dhhk47tc0cy6x.cloudfront.net/media/response_images/gqzvoeihtnendgo.pdf",
+                    "url": "gqzvoeihtnendgo.pdf",
                     "id": 10173,
                     "name": "2014 ACS Catalogue January.pdf"
                   }
