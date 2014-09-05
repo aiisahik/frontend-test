@@ -3,6 +3,7 @@ Frontend Developer Test
 
 You have been given a one-page app which allows an end-user to browse through their requests, the matched suppliers for each request, the quotes submitted by each supplier and messages exchanges between the end user and each supplier. 
 
+
 You goal is to improve the one page app along the following criteria (in order of importance): 
 
 1. Present the information and create a user experience that is most helpful and easy to use for the end user
@@ -13,6 +14,7 @@ You goal is to improve the one page app along the following criteria (in order o
 
 4. Responsive design for multiple device types and screen sizes
 
+
 You will be evaluated on the following criteria (in order of importance): 
 
 1. Achievement of the general goals
@@ -20,6 +22,7 @@ You will be evaluated on the following criteria (in order of importance):
 2. CSS and HTML style 
 
 3. Javascript style 
+
 
 Guidelines: 
 
