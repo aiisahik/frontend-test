@@ -1,6 +1,6 @@
 data = {
   "buyer": {
-    "username": "sideswipebrewing@gmail.com",
+    "username": "buyer@gmail.com",
     "lastName": "O'Herron",
     "id": 14550,
     "firstName": "Craig"
@@ -109,7 +109,7 @@ data = {
           "numProductImages": 3,
           "messages": [
             {
-              "body": "Hello Craig,\n\nSorry for the delay in my response to your quote request.  We had a supply chain problem which is now been solved and have many containers on their way to both of our warehouses.  \n\nWe will have in stock in VA 1/6bbls at $76 each with American Sankey MicroMatic drop in valves and will be able to ship mid July. Over 200 keg orders receive a $2 per keg discount. I recommend to pre-order your kegs as early as possible to ensure they are available when you need them at this price. Quote is valid for one week due to the stainless steel price spike.   If you are interested in reading about stainless steel prices, clink on the link below:\n\nhttp://www.bloomberg.com/news/2014-05-26/stainless-steel-sales-jump-as-nickel-costs-spur-stockpile.html\n\nPlease let me know if you have any questions and thank you for your interest in Gopher Kegs,\n\nHelmut Mees\nGopher Kegs\n541-508-5218\nwww.gopherkegs.com",
+              "body": "Hello Craig,\n\nSorry for the delay in my response to your quote request.  We had a supply chain problem which is now been solved and have many containers on their way to both of our warehouses.  \n\nWe will have in stock in VA 1/6bbls at $76 each with American Sankey MicroMatic drop in valves and will be able to ship mid July. Over 200 keg orders receive a $2 per keg discount. I recommend to pre-order your kegs as early as possible to ensure they are available when you need them at this price. Quote is valid for one week due to the stainless steel price spike. ",
               "senderId": 15682,
               "recipientId": 14550,
               "readAt": null,
@@ -246,7 +246,7 @@ data = {
               "sentAt": "2014-05-27T14:38:29"
             },
             {
-              "body": "Great.  Please email me at sideswipebrewing@gmail.com or call me at 614-719-9654.  I will definitely place an order this week, please let me know what else is necessary to complete the purchase.\n\nAlso Kinnek is offering $100 off a keg purchase till the end of May.  I was just wondering how that worked? ",
+              "body": "Great.  Please email me at buyer@gmail.com or call me at 614-719-9654.  I will definitely place an order this week, please let me know what else is necessary to complete the purchase.\n\nAlso Kinnek is offering $100 off a keg purchase till the end of May.  I was just wondering how that worked? ",
               "senderId": 14550,
               "recipientId": 16739,
               "readAt": "2014-05-27T14:59:03",
@@ -325,7 +325,7 @@ data = {
           "numProductImages": 9,
           "messages": [
             {
-              "body": "Hello Craig,\n\nSorry I was not able to get this quote over quick enough but I figured I would send you our info and the quote anyways. At least you will know what we can do for you for future orders and or other equipment needs we may be able to assist you with.\n\nCongrats on locating your keg supplier and please don't hesitate to contact me for anything I may be able to do for you all.\n\nCheers.\n\nL.J. Coverdale\n\njcoverdale@deutschebeverage.com\n10130 Mallard Creek Suite 300\nCharlotte, NC 28262\nOffice: 704-900-6606\nwww.deutschebeverage.com\nwww.inkkegs.com\nhttps://www.facebook.com/pages/Deutsche-Beverage-Technology/535851016440172?fref=ts",
+              "body": "Hello Craig,\n\nSorry I was not able to get this quote over quick enough but I figured I would send you our info and the quote anyways. At least you will know what we can do for you for future orders and or other equipment needs we may be able to assist you with.\n\nCongrats on locating your keg supplier and please don't hesitate to contact me for anything I may be able to do for you all.\n\nCheers.\n\nL.J. Coverdale\n\n",
               "senderId": 7294,
               "recipientId": 14550,
               "readAt": null,
@@ -563,7 +563,7 @@ data = {
           "numProductImages": 0,
           "messages": [
             {
-              "body": "Hi Craig,\n\nOur company has been in the tap handle biz for 25 years and is the leader in ceramic tap handles.\n\nWe do not offer wood or metal, but if ceramics is an option we can offer more details.\n \nWe offer stock shapes attached that we can decorate with brewery logo’s.\n25 is our min\n \nPhil Thatcher\nChrislan Tap Handles\nwww.chrislanceramics.com\n519-820-6346",
+              "body": "Hi Craig,\n\nOur company has been in the tap handle biz for 25 years and is the leader in ceramic tap handles.\n\nWe do not offer wood or metal, but if ceramics is an option we can offer more details.\n \nWe offer stock shapes attached that we can decorate with brewery logo’s.\n25 is our min\n \nPhil Thatcher\nChrislan Tap Handles\n",
               "senderId": 14731,
               "recipientId": 14550,
               "readAt": "2014-02-12T16:57:01",
@@ -626,7 +626,7 @@ data = {
           "numProductImages": 0,
           "messages": [
             {
-              "body": "I received your contact info through kinnek. I'm hoping I can make the handles that you want. My handles start at $25 each for the smallest with standard domestic hardwoods. I have a variety of standard styles that I make and anything can be customized. Please check out my website at www.sites.google.com/smithcustomhandles to see some examples and styles. I can send you some photos of some of my work and breweries, restaurants, and bars that have my handles. I can get you a detailed quote with just a little more specific info including number of handles, possible wood choices, and a general idea of size. Feel free to email me at smithcustomhandles@gmail.com or call me at 310-291-8694. Thanks and I hope to make your handles a reality. \nBryan Smith\nSmith & Co.",
+              "body": "I received your contact info through kinnek. I'm hoping I can make the handles that you want. My handles start at $25 each for the smallest with standard domestic hardwoods. I have a variety of standard styles that I make and anything can be customized. I can send you some photos of some of my work and breweries, restaurants, and bars that have my handles. I can get you a detailed quote with just a little more specific info including number of handles, possible wood choices, and a general idea of size. \nBryan Smith\nSmith & Co.",
               "senderId": 14755,
               "recipientId": 14550,
               "readAt": "2014-02-13T06:21:47",
@@ -648,7 +648,7 @@ data = {
           "numProductImages": 0,
           "messages": [
             {
-              "body": "Hi Craig,\n\nThanks for the inquiry regarding tap handles. Our MOQ on custom is 100 pieces and lead times for anything custom or stock would be at least 6 weeks right now. If I were you I would go to our online store (http://www.ajstaphandles.biz/Beer-Tap-Handles_c8.htm) and pick some out of there. They are ready to ship the same day as purchased. If you have any other questions please let me know.\n\nCheers!\n\nAndy",
+              "body": "Hi Craig,\n\nThanks for the inquiry regarding tap handles. Our MOQ on custom is 100 pieces and lead times for anything custom or stock would be at least 6 weeks right now. They are ready to ship the same day as purchased. If you have any other questions please let me know.\n\nCheers!\n\nAndy",
               "senderId": 175,
               "recipientId": 14550,
               "readAt": "2014-02-08T08:12:15",
@@ -670,7 +670,7 @@ data = {
           "numProductImages": 1,
           "messages": [
             {
-              "body": "We can do a custom tap but quantity is usually 100 minimum, if you are interested we will be glad to work with you larry@alisongroup.com. Check out this site http://www.flickr.com/photos/100622283@N04/sets/72157635177076356",
+              "body": "We can do a custom tap but quantity is usually 100 minimum, if you are interested we will be glad to work with you.",
               "senderId": 330,
               "recipientId": 14550,
               "readAt": "2014-02-11T08:38:52",
@@ -1305,7 +1305,7 @@ data = {
               "sentAt": "2014-02-15T11:48:10"
             },
             {
-              "body": "Yes.\n\nPlease email me your exact shipping address and I will send the case out UPS today to arrive tomorrow 2-21-14.  \n\nMy address is lprica@kaufmancontainer.com\n\nLooking forward to working with you!",
+              "body": "Yes.\n\nPlease email me your exact shipping address and I will send the case out UPS today to arrive tomorrow 2-21-14.\n\nLooking forward to working with you!",
               "senderId": 12477,
               "recipientId": 14550,
               "readAt": "2014-03-04T19:30:20",
@@ -1313,7 +1313,7 @@ data = {
               "sentAt": "2014-02-20T09:11:33"
             },
             {
-              "body": "Wanted to follow up and make sure you liked the bottles we sampled and quoted.  Please contact me at 216-789-7165 if you are interested in moving forward with orders.  Lela",
+              "body": "Wanted to follow up and make sure you liked the bottles we sampled and quoted.  Lela",
               "senderId": 12477,
               "recipientId": 14550,
               "readAt": "2014-03-17T09:15:20",
@@ -1329,7 +1329,7 @@ data = {
               "sentAt": "2014-03-17T09:17:04"
             },
             {
-              "body": "Great.  Please send us an email at lprica@kaufmancontainer.com when you are ready to order.  I want to make sure we do not miss your request.",
+              "body": "Great.  Let me know when you are ready.  I want to make sure we do not miss your request.",
               "senderId": 12477,
               "recipientId": 14550,
               "unviewed": true,
@@ -1390,7 +1390,7 @@ data = {
               "sentAt": "2014-02-08T12:34:55"
             },
             {
-              "body": "Not a problem. Please send me an email at drake.j.mccrary@saint-gobain.com with your shipping address, and we'll get them in the mail. Thanks.",
+              "body": "Not a problem. Send me your your shipping address, and we'll get them in the mail. Thanks.",
               "senderId": 7723,
               "recipientId": 14550,
               "readAt": "2014-02-10T11:01:02",

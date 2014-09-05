@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="project">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="styles.css" />
@@ -108,28 +108,48 @@
 			</div>
 			<% if (quote !== null) { %>
 				<hr>
-				<h4>Quote </h4>
+				<h4>Quote
+					<% if (typeof quote.unviewed !== 'undefined' && quote.unviewed) { %><span class="label label-danger">NEW</span><% } %>
+				</h4>
 				<div class="row h5 text-muted">
-					<div class="col-md-2">Qty:</div><div class="col-md-8">Description</div><div class="col-md-2">Price</div>
+					<div class="col-md-2">Qty</div><div class="col-md-8">Description</div><div class="col-md-2">Price</div>
 				</div>
 				<% if (quote.lineItems) { %>
 				<% _.each(quote.lineItems, function(lineitem){ %>
-				<div class="row lineitem">
-					<div class="col-md-2"><%= lineitem.quantity %></div>
-					<div class="col-md-8">
-						<strong><%= lineitem.name %></strong><br>
-						<pre><%= lineitem.description %></pre>
+					<hr>
+					<div class="row lineitem">
+						<div class="col-md-2"><%= lineitem.quantity %></div>
+						<div class="col-md-8">
+							<strong><%= lineitem.name %></strong><br>
+							<pre><%= lineitem.description %></pre>
+							<% _.each(lineitem.attachments, function(attachment){ %>
+								<a href="<%= attachment.url %>" class="label label-info"> <%= attachment.name %></a><br>
+							<% }) %>
+						</div>
+						<div class="col-md-2">$<%= lineitem.price %>
+							<% if (lineitem.aggregateOrPerUnit == "per unit") { %>
+								per <%=  lineitem.unit %><br>
+							<% } else { %>
+								total
+							<% } %>
+						</div>
 					</div>
-					<div class="col-md-2">$<%= lineitem.price %>
-						<% if (lineitem.aggregateOrPerUnit == "per unit") { %>
-							per <%=  lineitem.unit %><br>
-						<% } else { %>
-							total
-						<% } %>
-					</div>
-				</div>
+
 				<% }) %>
-				<% } %>
+				<hr>
+				<div id="quote-feedback-view">
+					<h4>Quote Feedback</h4>
+					<% if (feedback) { %>
+						<div class="alert alert-success">
+							Thank you for your feedback.
+						</div>
+					<% } else { %>
+						<a class="btn btn-default" href="#request/<%= request.id %>/supplier/<%= id %>/feedback/like">I like this quote </a>
+						<a class="btn btn-default" href="#request/<%= request.id %>/supplier/<%= id %>/feedback/expn">This quote is too expensive </a>
+						<a class="btn btn-default" href="#request/<%= request.id %>/supplier/<%= id %>/feedback/irr">This quote does not match my request </a>
+					<% } %>
+				</div>
+			<% } %>
 			</div>
 
 			<% } %>
