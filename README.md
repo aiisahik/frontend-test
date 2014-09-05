@@ -1,7 +1,7 @@
 Frontend Developer Test
 =============
 
-You have been given a one-page app which allows an end-user to browse through their requests, the matched suppliers for each request, the quotes submitted by each supplier and messages exchanges between the end user and each supplier. 
+You have been given a one-page app which allows an end-user to browse through their requests, the matched suppliers for each request, the quotes submitted by each supplier, and the messages exchanged between the end user and each supplier. 
 
 
 
