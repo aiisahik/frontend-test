@@ -4,10 +4,13 @@ Frontend Developer Test
 You have been given a one-page app which allows an end-user to browse through their requests, the matched suppliers for each request, the quotes submitted by each supplier and messages exchanges between the end user and each supplier. 
 
 You goal is to improve the one page app along the following criteria (in order of importance): 
-1. General Ease of Use
+
+1. Present the information and create a user experience that is most helpful and easy to use for the end user
+
 2. Alert users to look at unviewed messages and quotes 
+
 3. Get users to provide feedback on quotes 
-3. Present information in a format / manner that is most helpful to the end user
+
 4. Responsive design for multiple device types and screen sizes
 
 You will be evaluated on the following criteria (in order of importance): 
