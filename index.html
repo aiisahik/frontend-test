@@ -2,16 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="project">
 	<head>
 		<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css" />
 	</head>
 	<body>
 
+		<!-- MAIN DOM -->
 		<div id="main" class="container">
 
 			<div id="requests-list-view"></div>
 			<div id="request-view"></div>
+			<div id="supplier-view"></div>
 		</div>
 
-		<script type="text/template" id="request-list-wrapper-template">
+
+		<!-- TEMPLATES -->
+		<script type="text/template" id="requests-list-template">
 			<h3>My Requests </h3>
 			<div class="row"> 
 				<div class="col-md-6"><h5>Request</h5></div>
@@ -19,76 +24,144 @@
 				<div class="col-md-3"><h5># Suppliers </h5></div>
 			</div>
 			<hr>
-			<div id="request-list"></div>
-		</script>
-		<script type="text/template" id="request-list-item-template">
-			<div class="row"> 
-				<div class="col-md-6"><a href="#" onclick="render_request(<%= id %>)"> <%= headline %></a></div>
-				<div class="col-md-3"><%= date %></div>
-				<div class="col-md-3"><%= suppliers.length %></div>
-			</div>
-			<hr>
-		</script>
-
-		<script type="text/template" id="request-wrapper-template">
-			<h3><a href="#" onclick="render_requests_list()">My Requests</a> > <%= headline %> </h3>
-			<div class="row"> 
-				<div class="col-md-3"><h5>Supplier</h5></div>
-				<div class="col-md-3"><h5>Location </h5></div>
-				<div class="col-md-3"><h5>Quotes </h5></div>
-				<div class="col-md-3"><h5>Messages </h5></div>
-			</div>
-			<hr>
-			<div id="supplier-list"></div>
-		</script>
-		<script type="text/template" id="supplier-list-item-template">
-			<div class="row"> 
-				<div class="col-md-3"><%= name %></div>
-				<div class="col-md-3"><%= city %>, <%= state %></div>
-				<div class="col-md-3"></div>
-				<div class="col-md-3"><%= messages.length %></div>
-			</div>
-			<hr>
+			<% _.each(requests, function(request){ %> 
+				<div class="row"> 
+					<div class="col-md-6"><a href="#request/<%= request.id %>"> <%= request.headline %></a></div>
+					<div class="col-md-3"><%= request.date %></div>
+					<div class="col-md-3"><%= request.suppliers.length %></div>
+				</div>
+				<hr>
+			<% }) %>
 		</script>
 
+		<script type="text/template" id="request-template">
+			<h3><a href="#">My Requests</a> > <%= headline %> </h3>
+			<hr>
 
+			<!-- request details -->
+			<h4> Request Details </h4>
+			<div class="row"> 
+					<div class="col-md-3">Product Type:</div>
+					<div class="col-md-9"><%= category %></div>
+			</div>
+			<% _.each(desiredSpecs, function(spec){ %> 
+				<div class="row"> 
+					<div class="col-md-3"><%= spec.name %>:</div>
+					<div class="col-md-9"><%= spec.value %></div>
+				</div>
+			<% }) %>
+			
+			<!-- supplier list -->
+			<% if (suppliers && suppliers.length > 0) { %>
+				<hr>
+				<h4> Suppliers </h4>
+				<div class="row text-muted"> 
+					<div class="col-md-4"><h5>Supplier</h5></div>
+					<div class="col-md-4"><h5>Location </h5></div>
+					<div class="col-md-2"><h5>Quote </h5></div>
+					<div class="col-md-2"><h5>Messages </h5></div>
+				</div>
+				<hr>
+				<% _.each(suppliers,function(supplier){ %>
+					<div class="row"> 
+						<div class="col-md-4"><a href="#request/<%= id %>/supplier/<%= supplier.id %>"><%= supplier.name %></a></div>
+						<div class="col-md-4"><%= supplier.city %>, <%= supplier.state %></div>
+						<div class="col-md-2">
+							<% if (supplier.quote && supplier.quote.lineItems.length > 0 ) { %>
+								<% _.each(supplier.quote.lineItems, function(lineItem){ %>
+									$<%= lineItem.price %>
+									<% if (lineItem.aggregateOrPerUnit == "per unit") { %>
+										per <%= lineItem.unit %><br>
+									<% } %>
+								<% }) %>
+							<% } else { %>
+								-
+							<% } %>
+						</div>
+						<div class="col-md-2"><%= supplier.messages.length %></div>
+					</div>
+					<hr>
+				<% }) %>
+			<% } %>
+		</script>
+
+		<script type="text/template" id="supplier-template">
+			<h3><a href="#">My Requests</a> > <a href="#request/<%= request.id %>"><%= request.headline %></a></h3>
+			<h3> <%= name %>  </h3>
+			<hr>
+			<h4>Supplier Information</h4>
+			<div class="row">
+				<div class="col-md-3">Location:</div><div class="col-md-9"><%= city %>, <%= state %></div>
+			</div>
+			<% if (avgRating !== null) { %>
+			<div class="row">
+				<div class="col-md-3">Customer Rating:</div><div class="col-md-9"><%= avgRating %>/5</div>
+			</div>
+			<% } %>
+			<% if (numReviews !== null && numReviews > 0) { %>
+			<div class="row">
+				<div class="col-md-3">Customer Reviews:</div><div class="col-md-9"><%= numReviews %></div>
+			</div>
+			<% } %>
+			<div class="row">
+				<div class="col-md-3">Responsiveness:</div><div class="col-md-9"><%= responsiveness %></div>
+			</div>
+			<% if (quote !== null) { %>
+				<hr>
+				<h4>Quote </h4>
+				<div class="row h5 text-muted">
+					<div class="col-md-2">Qty:</div><div class="col-md-8">Description</div><div class="col-md-2">Price</div>
+				</div>
+				<% if (quote.lineItems) { %>
+				<% _.each(quote.lineItems, function(lineitem){ %>
+				<div class="row lineitem">
+					<div class="col-md-2"><%= lineitem.quantity %></div>
+					<div class="col-md-8">
+						<strong><%= lineitem.name %></strong><br>
+						<pre><%= lineitem.description %></pre>
+					</div>
+					<div class="col-md-2">$<%= lineitem.price %>
+						<% if (lineitem.aggregateOrPerUnit == "per unit") { %>
+							per <%=  lineitem.unit %><br>
+						<% } else { %>
+							total
+						<% } %>
+					</div>
+				</div>
+				<% }) %>
+				<% } %>
+			</div>
+
+			<% } %>
+			<% if (messages !== null && messages.length > 0) { %>
+			<hr>
+			<h4>Messages </h4>
+			<div id="messages-view"></div>
+			<% } %>
+		</script>
+
+		<script type="text/template" id="message-template">
+			<div class="panel <% if (typeof unviewed !== 'undefined' && unviewed) { %>panel-danger<% } else { %>panel-info<% } %> panel-message">
+			  	<div class="panel-heading">
+					<% if (buyer.id == senderId) { %>
+			  			You
+			  		<% } else { %>
+			  			<span><%= supplier.name %></span>
+			  		<% } %>
+			  		<span class="pull-right">Sent: <%= sentAt %></span>
+			  	</div>
+				<div class="panel-body">
+					<pre><%= body %></pre>
+				</div>
+			</div>
+		</script>
+
+
+		<!-- JS -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
 		<script type="text/javascript" src="data.js"></script>
-		<script type="text/javascript">
-			render_requests_list = function(){
-				$("#request-view")
-					.empty();
-				$("#requests-list-view")
-					.empty()
-					.append(_.template($("#request-list-wrapper-template").html()));
-
-				_.each(data.requests,function(request){
-					$("#request-list")
-						.append(_.template($("#request-list-item-template").html(), request));
-				});
-			}
-
-			render_request = function(request_id){
-				var request = _.findWhere(data.requests, {id: request_id});
-
-				$("#requests-list-view")
-					.empty();
-				
-				$("#request-view")
-					.empty()
-					.append(_.template($("#request-wrapper-template").html(), request));
-				_.each(request.suppliers,function(supplier){
-					$("#supplier-list").append(
-						_.template($("#supplier-list-item-template").html(), supplier)
-					);
-				});
-			}
-
-			$(function(){
-				render_requests_list();
-			})
-		</script>
+		<script type="text/javascript" src="app.js"></script>
 	</body>
 </html>
