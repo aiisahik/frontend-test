@@ -27,18 +27,22 @@ You will be evaluated on the following criteria (in order of importance):
 
 
 
-Guidelines: 
+Getting Started and Submitting: 
 
-1. Fork this repository when starting off. 
+1. To get started, fork this repo into your own github account or download the contents to your local. When you're done with the exercise, email the forked repo or your completed code to jie@kinnek.com
 
 2. You will be evaluated by what you are able to do within 3 hours. Commit and push your code to your forked repo before or at the 3 hour mark. If you run out of time and need to quickly or complete something, you can make a separate push after the 3 hour push.
 
-3. You may import / remove / replace any generally available open source library.
 
-4. You may modify and rewrite any portion of any file in the repository except for data.js which you may not modify.
 
-5. You may consult any online resource (such as Stack Overflow) but you may not solicit help or advice from any human being. 
+Guidelines: 
 
-6. A simple jQuery / underscore based app has been written for you. You can add to it or even re-write it in a framework of your choice. However, keep in mind that you will be primarily evaluated on the design / UX / UI / HTML / CSS - not on the elegance of the javascript code.
+1. You may import / remove / replace any generally available open source library.
+
+2. You may modify and rewrite any portion of any file in the repository except for data.js which you may not modify.
+
+3. You may consult any online resource (such as Stack Overflow) but you may not solicit help or advice from any human being. 
+
+4. A simple jQuery / underscore based app has been written for you. You can add to it or even re-write it in a framework of your choice. However, keep in mind that you will be primarily evaluated on the design / UX / UI / HTML / CSS - not on the elegance of the javascript code.
 
 
