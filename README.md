@@ -5,7 +5,7 @@ You have been given a one-page app which allows an end-user to browse through th
 
 Goals
 =============
-You goal is to improve the one page app along the following criteria (in order of importance): 
+Your impoved app should achieve the following goals (in order of importance): 
 
 1. Present the information and create a user experience that is most helpful and easy to use for the end user
 
